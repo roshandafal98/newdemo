@@ -1,1 +1,18 @@
-This is a sample file
+
+
+pipeline {
+    agent any
+
+ 
+
+    stages {
+    
+        stage('Clear') {
+            steps { 
+               echo 'hello'
+            }
+               
+            }
+        }
+
+}
